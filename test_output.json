@@ -1,0 +1,29 @@
+{
+  "health": {
+    "status": "ok",
+    "timestamp": "2026-07-12T19:14:15.136938",
+    "has_stt": true,
+    "has_tts": false
+  },
+  "english_chat": {
+    "intent": "Crop Advisory",
+    "entities": {
+      "crops": [
+        "rice"
+      ],
+      "pests": [],
+      "fertilizers": [],
+      "soilTypes": [
+        "sandy soil"
+      ],
+      "weather": [],
+      "schemes": []
+    },
+    "response": "For rice cultivation in sandy soil, it's essential to choose a fertilizer that addresses the soil's low water-holding capacity and potential nutrient deficiencies. \n\nAlthough the official guidelines don't specifically mention rice or sandy soil, I can provide you with some general advice. Sandy soils tend to lack organic matter and nutrients, so a balanced fertilizer with a mix of nitrogen, phosphorus, and potassium (NPK) would be suitable.\n\nConsider using a fertilizer with a higher phosphorus content to promote root development and a balanced NPK ratio, such as 15:15:15 or 20:10:10. Additionally, incorporating organic matter like compost or well-rotted manure can help improve soil structure and fertility.\n\nHowever, for the most accurate advice, I recommend consulting local agricultural experts or checking with your regional agricultural department for specific fertilizer recommendations tailored to your area and rice variety. They can provide more detailed guidance on the best fertilizers and application rates for your specific conditions."
+  },
+  "hindi_chat": {
+    "original_query": "टमाटर की फसल में कौन सा खाद डालना चाहिए?",
+    "translated_query": "What type of fertilizer should be used in tomato crop?",
+    "response": "टमाटर की फसल के लिए, नाइट्रोजन, फॉस्फोरस और पोटाश (एनपीके) के मिश्रण वाला संतुलित उर्वरक उपयुक्त है। 10:10:10 या 15:15:15 एनपीके के अनुपात वाला उर्वरक एक अच्छा विकल्प होगा।\n\nहालांकि, टमाटर के पौधे के विकास के चरण को भी उर्वरक का चयन करते समय ध्यान में रखना महत्वपूर्ण है। उदाहरण के लिए, 10:20:10 एनपीके जैसे थोड़े अधिक फॉस्फोरस सामग्री वाला उर्वरक फलने और फूलने को बढ़ावा दे सकता है।\n\nइसके अलावा, आप मिट्टी की संरचना और उर्वरता में सुधार करने में मदद करने वाले जैसे कि खाद या अच्छी तरह से सड़े हुए गोबर जैसे जैविक उर्वरकों का उपयोग करने पर भी विचार कर सकते हैं।\n\nस्थानीय कृषि विशेषज्ञों से परामर्श करना या अपने क्षेत्र और टमाटर की किस्म के लिए तैयार किए गए विशिष्ट उर्वरक सिफारिशों के लिए अपने क्षेत्रीय कृषि विभाग की जांच करना हमेशा सबसे अच्छा होता है। वे आपकी विशिष्ट स्थितियों के लिए सर्वोत्तम उर्वरकों और अनुप्रयोग दरों पर अधिक विस्तृत मार्गदर्शन प्रदान कर सकते हैं।"
+  }
+}

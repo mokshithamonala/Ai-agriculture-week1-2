@@ -1,0 +1,10 @@
+- `[x]` Integrate Groq API in `backend/main.py`
+    - `[x]` Load `GROQ_API_KEY` from environment
+    - `[x]` Implement Groq Whisper Speech-to-Text in `/api/stt`
+    - `[x]` Implement Groq NLI/Parser (Language, Intent, Entities extraction) in `NLPManager`
+    - `[x]` Implement Groq Translation helper for multi-lingual queries
+    - `[x]` Integrate Groq Chat Completion for advisor answers in `/api/chat`
+    - `[x]` Update `/api/health` with Groq status
+- `[x]` Verify Voice Chat end-to-end
+    - `[x]` Run test script to verify STT, translation, parsing, and chat responses using Groq
+    - `[x]` Start FastAPI backend server and confirm local health and chat endpoint responses

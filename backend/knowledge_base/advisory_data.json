@@ -1,0 +1,93 @@
+{
+  "crops": [
+    {
+      "name": "wheat",
+      "sowing_season": "Rabi (October - December)",
+      "seed_rate": "100-120 kg/hectare",
+      "spacing": "20-22.5 cm row spacing",
+      "varieties": ["HD-2967", "HD-3086", "DBW-187 (Karan Vandana)"],
+      "guidelines": "Sow certified seeds after treating them with Carbendazim. Maintain soil moisture during crown root initiation (21 days after sowing)."
+    },
+    {
+      "name": "rice",
+      "sowing_season": "Kharif (June - July)",
+      "seed_rate": "25-30 kg/hectare for transplanting",
+      "spacing": "20 x 15 cm spacing",
+      "varieties": ["Pusa Basmati 1121", "IR-64", "MTU-1010"],
+      "guidelines": "Ensure nursery bed is well-fertilized. Transplant 25-30 days old seedlings. Keep water depth at 5cm for the first week post-transplant."
+    }
+  ],
+  "soil_health": [
+    {
+      "soil_type": "black soil",
+      "characteristics": "High clay content, deep cracks in summer, high moisture retention capacity.",
+      "recommended_treatment": "Add gypsum if soil is overly alkaline. Apply rich organic compost or farmyard manure.",
+      "suitable_crops": ["cotton", "soybean", "wheat", "gram"]
+    },
+    {
+      "soil_type": "sandy soil",
+      "characteristics": "Low water retention, high aeration, nutrient leaching issues.",
+      "recommended_treatment": "Incorporate green manure crops like dhaincha or sunnhemp. Frequent light irrigation.",
+      "suitable_crops": ["groundnut", "bajra", "potato"]
+    }
+  ],
+  "pest_management": [
+    {
+      "pest_name": "whitefly",
+      "affected_crops": ["cotton", "tomato", "chilli"],
+      "symptoms": "Yellowing of leaves, sticky fluid (honeydew) on leaves, soot fungus growth.",
+      "organic_control": "Spray neem oil solution (5ml/liter of water mixed with 1ml liquid soap). Install yellow sticky traps (10-15 per acre).",
+      "chemical_control": "Spray Imidacloprid 17.8 SL at 0.5 ml/liter if whitefly threshold exceeds 6-8 per leaf."
+    },
+    {
+      "pest_name": "stem borer",
+      "affected_crops": ["rice", "maize"],
+      "symptoms": "Drying of central shoot (dead heart) or white panicles (white ear).",
+      "organic_control": "Release Trichogramma chilonis egg cards (50,000 eggs/acre). Set up pheromone traps.",
+      "chemical_control": "Apply Cartap Hydrochloride 4G granules at 10 kg/acre."
+    }
+  ],
+  "fertilizers": [
+    {
+      "name": "urea",
+      "nutrient": "Nitrogen (46%)",
+      "application_stage": "Vegetative stage (basal and top dressing)",
+      "guidelines": "Apply urea in split doses to minimize leaching. Avoid broadcasting on wet soil before rain."
+    },
+    {
+      "name": "npk",
+      "nutrient": "Nitrogen, Phosphorus, Potassium",
+      "application_stage": "Sowing/transplanting and flowering stage",
+      "guidelines": "Use 19:19:19 for early foliar spray and 12:32:16 as basal application for balanced nutrition."
+    }
+  ],
+  "irrigation": [
+    {
+      "type": "drip irrigation",
+      "suitability": "Fruit crops, vegetables, cotton, sugarcane",
+      "benefits": "Saves up to 60% water, reduces weeds, delivers nutrients directly to root zones.",
+      "guidelines": "Clean lateral filters regularly to prevent clogging. Run for 1-2 hours daily depending on soil moisture."
+    },
+    {
+      "type": "sprinkler irrigation",
+      "suitability": "Cereals, oilseeds, pulses, sandy soils",
+      "benefits": "Simulates natural rain, checks soil erosion, frost control.",
+      "guidelines": "Do not operate during high winds. Maintain uniform nozzle pressure."
+    }
+  ],
+  "government_schemes": [
+    {
+      "name": "pm kisan",
+      "benefits": "₹6,000 per year in 3 equal installments of ₹2,000.",
+      "eligibility": "Small and marginal farmer families owning cultivable land.",
+      "how_to_apply": "Register online at pmkisan.gov.in using Aadhaar, bank details, and land records."
+    },
+    {
+      "name": "crop insurance",
+      "alias": "pm fasal bima yojana",
+      "benefits": "Financial support for crop loss due to natural calamities, pests, or disease.",
+      "premium": "2% for Kharif, 1.5% for Rabi, 5% for commercial/horticultural crops.",
+      "how_to_apply": "Submit application on pmfby.gov.in or local bank within 72 hours of sowing/damage."
+    }
+  ]
+}
